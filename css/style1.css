@@ -1,0 +1,126 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: "Open Sans";
+    font-size: 16px;
+    background: #EB3349;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f45c43, #EB3349);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(244, 92, 67, 0.3), rgba(235, 51, 73, 0.3)), url("images/book-shelf.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+}
+a {
+    color: #EB3349;
+}
+a:hover{
+    color: #F45C43;
+}
+#login {
+    min-width: 280px;
+    margin: 25vh 35vw 0 35vw;
+    box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.6);
+    padding: 20px 20px 10px 20px;
+    background: white;
+    border-radius: 8px;
+    align-content: center;
+}
+#login h2{
+    font-size: 50px;
+    background: -webkit-linear-gradient(180deg ,#eb3349, #f45c43);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin: 0 0 20px 0;
+
+}
+#sign-up {
+    min-width: 280px;
+    margin: 10vh 35vw 0 35vw;
+    box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.6);
+    padding: 20px 20px 10px 20px;
+    background: white;
+    border-radius: 8px;
+    align-content: center;
+}
+#sign-up h2{
+    font-size: 40px;
+    background: -webkit-linear-gradient(180deg ,#eb3349, #f45c43);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+#message-red{
+    font-size: 12px;
+    color: #8e0505;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background: rgba(255, 0, 0, 0.2);
+}
+#message-green{
+    font-size: 12px;
+    color: #005500;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 5px;
+    background: rgba(0, 128, 0, 0.2);
+}
+#create-login-form {
+    width: 100%;
+}
+#create-login-form  label{
+    font-family: Lato;
+    margin-right: 10px;
+    color: #EB3349;
+}
+#create-login-form  input{
+    margin: 10px 0;
+}
+#create-login-form input[type=email],input[type=password],input[type=text]{
+    border-radius: 5px;
+    border: 1px solid #9e8d8f;
+    height: 25px;
+    width: 100%;
+    box-sizing : border-box;
+    padding: 0 5px;
+}
+#create-login-form input[type=email]:focus,input[type=password]:focus,input[type=text]:focus{
+    border: 1px solid #EB3349;
+}
+#create-login-form input[type=submit]{
+    box-shadow: 0 0 10px  rgba(235, 51, 73, 0.7);
+    font-size: 14px;
+    color: white;
+    background: #EB3349;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+#create-login-form input[type=submit]:hover{
+    box-shadow: 0 0 10px rgba(244, 92, 67, 0.7);
+    cursor: pointer;
+    background: #F45C43;
+}
+#create-login-form input[type=submit]:disabled{
+    box-shadow: 0 0 10px rgba(132, 132, 132, 0.7);
+    background: grey;
+}
+#create-login-form input[type=radio]:hover{
+    cursor: pointer;
+}
+footer{
+    padding: 20px 0 10px 0;
+}
+footer p{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+
+
